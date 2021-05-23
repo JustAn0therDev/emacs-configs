@@ -9,7 +9,7 @@
  '(custom-safe-themes
    '("19e390918f5e517e84511806e80ea7d7b61644aea9274f6025b98f1e5860e0bb" "1f41003d15882fb766c120ee9763299d6958ba663b4631e01e215cc11171c228" default))
  '(package-selected-packages
-   '(magit csharp-mode vue-html-mode typescript-mode dumb-jump python-mode json-mode importmagic import-js go-mode)))
+   '(magit csharp-mode vue-html-mode typescript-mode python-mode json-mode importmagic import-js go-mode)))
  (setq-default indent-tabs-mode nil)
  (setq-default tab-width 4)
  (setq indent-line-function 'insert-tab)
