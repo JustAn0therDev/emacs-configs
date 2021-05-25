@@ -26,5 +26,5 @@
 (package-initialize)
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-(add-hook 'after-init-hook (lambda () (load-theme 'naysayer)))
+(add-hook 'after-init-hook (lambda () (load-theme 'synthwave)))
 (setq create-lockfiles nil)
