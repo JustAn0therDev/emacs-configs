@@ -13,6 +13,7 @@
  (setq-default indent-tabs-mode nil)
  (setq-default tab-width 4)
  (setq indent-line-function 'insert-tab)
+ (set-frame-font "Consolas 12" nil t)
  (set-face-attribute 'default nil :height 120)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
