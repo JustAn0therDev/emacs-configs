@@ -17,6 +17,9 @@
  (setq-default c-basic-offset 4)
  (set-frame-font "Consolas 20" nil t)
  (set-face-attribute 'default nil :height 120)
+ (global-set-key (kbd "C-z") ctl-x-map)
+ (global-set-key (kbd "C-x C-h") help-map)
+ (global-set-key (kbd "C-h") 'previous-line)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -32,7 +35,7 @@
 
 ;; Setting themes and general configs
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/") ;; this is the main path for my custom themes.
-(add-hook 'after-init-hook (lambda () (load-theme 'zenburn))) ;; my main theme of use. I change the theme from time to time
+(add-hook 'after-init-hook (lambda () (load-theme 'zenburn))) ;; my (current) main theme of use. I actually like this one a lot.
 ;; Tells emacs not to create lockfiles. These are files that ensure that only one process is editing the file. This is not ideal because I usually have
 ;; more than one application open for the same file (usually an IDE and a text editor, such as Emacs).
 (setq create-lockfiles nil)
