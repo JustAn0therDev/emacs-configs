@@ -128,6 +128,7 @@
   (set-cursor-color "#40FF40")
 )
 (add-hook 'window-setup-hook 'post-load-stuff t)
+(add-hook 'prog-mode-hook 'global-display-line-numbers-mode)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
