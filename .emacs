@@ -1,5 +1,7 @@
 (setq undo-limit 20000000)
 (setq undo-strong-limit 40000000)
+; So other programs can invoke Emacs (like Findin)
+(server-start)
 
 (setq fixme-modes '(c++-mode c-mode emacs-lisp-mode csharp-mode))
 (make-face 'font-lock-fixme-face)
